@@ -1,0 +1,60 @@
+.balance-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 1em;
+  background-color: rgb(15, 33, 46);
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.bal-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+
+.bal -input label {
+  font-size: 0.8em;
+  color: white;
+}
+
+.bal-input input {
+  background-color: rgb(15, 33, 46);
+  border: none;
+  border-bottom: 0.1em solid white;
+  color: white;
+  padding: 0.2em 0.5em;
+  font-size: 1em;
+  transition: border-bottom-color 0.3s ease;
+}
+
+.bal-input input:focus {
+  border-bottom-color: rgb(21, 41, 56);
+}
+
+.bal-input input:disabled {
+  background-color: rgb(31, 51, 66);
+  border-bottom-color: rgb(31, 51, 66);
+  cursor: not-allowed;
+}
+
+.set-balance-btn {
+  background-color: rgb(15, 33, 46);
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.set-balance-btn:hover {
+  background-color: rgb(21, 41, 56);
+}
+
+.set-balance-btn:disabled {
+  background-color: rgb(31, 51, 66);
+  cursor: not-allowed;
+}

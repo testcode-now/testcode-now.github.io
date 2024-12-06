@@ -1,0 +1,12 @@
+.ball-div {
+  position: absolute;
+  top: -2em;
+  left: 0;
+}
+
+.ball {
+  background-color: red;
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
+}

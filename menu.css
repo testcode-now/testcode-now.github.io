@@ -1,0 +1,190 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 1em;
+  background-color: rgb(15, 33, 46);
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.bet-mode {
+  display: flex;
+  gap: 0.5em;
+}
+
+.bet-mode button {
+  background-color: rgb(15, 33, 46);
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bet-mode button:hover {
+  background-color: rgb(21, 41, 56);
+}
+
+.bet-mode button:disabled {
+  background-color: rgb(31, 51, 66);
+  cursor: not-allowed;
+}
+
+.bet-mode .selected-tab {
+  background-color: rgb(21, 41, 56);
+}
+
+.bet-mode .unselected-tab {
+  background-color: rgb(15, 33, 46);
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+
+.input label {
+  font-size: 0.8em;
+  color: white;
+}
+
+.input input {
+  background-color: rgb(15, 33, 46);
+  border: none;
+  border-bottom: 0.1em solid white;
+  color: white;
+  padding: 0.2em 0.5em;
+  font-size: 1em;
+  transition: border-bottom-color 0.3s ease;
+}
+
+.input input:focus {
+  border-bottom-color: rgb(21, 41, 56);
+}
+
+.input input:disabled {
+  background-color: rgb(31, 51, 66);
+  border-bottom-color: rgb(31, 51, 66);
+  cursor: not-allowed;
+}
+
+.bet-input {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.bet-modifier {
+  background-color: rgb(15, 33, 46 );
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bet-modifier:hover {
+  background-color: rgb(21, 41, 56);
+}
+
+.bet-modifier:disabled {
+  background-color: rgb(31, 51, 66);
+  cursor: not-allowed;
+}
+
+.bet-button {
+  background-color: rgb(15, 33, 46);
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bet-button:hover {
+  background-color: rgb(21, 41, 56);
+}
+
+.bet-button:disabled {
+  background-color: rgb(31, 51, 66);
+  cursor: not-allowed;
+}
+
+.set-balance-btn {
+  background-color: rgb(15, 33, 46);
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.set-balance-btn:hover {
+  background-color: rgb(21, 41, 56);
+}
+
+.set-balance-btn:disabled {
+  background-color: rgb(31, 51, 66);
+  cursor: not-allowed;
+}
+
+.risk-rows {
+  display: flex;
+  gap: 0.5em;
+}
+
+.risk-rows select {
+  background-color: rgb(15, 33, 46);
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.risk-rows select:hover {
+  background-color: rgb(21, 41, 56);
+}
+
+.risk-rows select:disabled {
+  background-color: rgb(31, 51, 66);
+  cursor: not-allowed;
+}
+
+.auto-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.auto-menu button {
+  background-color: rgb(15, 33, 46);
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auto-menu button:hover {
+  background-color: rgb(21, 41, 56);
+}
+
+.auto-menu button:disabled {
+  background-color: rgb(31, 51, 66);
+  cursor: not-allowed;
+}
